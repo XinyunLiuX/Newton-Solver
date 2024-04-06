@@ -9,7 +9,6 @@ for i = 1:fnameNum
     w_data(i) = w;
     g_data(i) = g;
 end
-
 plot(g_data,w_data,'.','Markersize',15)
 hold on;
 plot(-8:0.1:8,m + (-8:0.1:8)/2, 'r','LineWidth',1.2)
